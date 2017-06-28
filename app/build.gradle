@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
 	compileSdkVersion 25
-	buildToolsVersion "25.0.2"
+	buildToolsVersion "26"
 
 	defaultConfig {
 		applicationId "com.example.database"
@@ -22,8 +22,8 @@ android {
 }
 
 
-ext.supportLibraryVersion = '25.3.0'
-ext.firebaseLibraryVersion = '10.2.0'
+ext.supportLibraryVersion = '25.3.1'
+ext.firebaseLibraryVersion = '11.0.1'
 
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -31,7 +31,7 @@ dependencies {
 	compile "com.android.support:recyclerview-v7:$supportLibraryVersion"
 	compile "com.android.support:cardview-v7:$supportLibraryVersion"
 	compile "com.android.support:design:$supportLibraryVersion"
-	compile 'com.android.support:support-v4:25.0.0'
+	compile 'com.android.support:support-v4:25.3.1'
 
 	// Firebase UI
 	compile 'com.firebaseui:firebase-ui-database:1.1.1'
@@ -39,13 +39,13 @@ dependencies {
 	compile "com.google.firebase:firebase-database:$firebaseLibraryVersion"
 	compile "com.google.firebase:firebase-auth:$firebaseLibraryVersion"
 
-	compile "com.google.firebase:firebase-core:10.2.0"
-	compile "com.google.firebase:firebase-storage:10.2.0"
-	compile "com.google.firebase:firebase-messaging:10.2.0"
+	compile "com.google.firebase:firebase-core:11.0.1"
+	compile "com.google.firebase:firebase-storage:11.0.1"
+	compile "com.google.firebase:firebase-messaging:11.0.1"
 
 	compile "com.squareup.picasso:picasso:2.5.2"
 
-	compile 'com.google.android.gms:play-services-maps:10.2.0'
+	compile 'com.google.android.gms:play-services-maps:11.0.1'
 
 	compile 'de.hdodenhof:circleimageview:2.1.0'
 
