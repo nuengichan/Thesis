@@ -1,0 +1,76 @@
+<resources>
+	<string name="app_name">PickupChild</string>
+	<string name="btn_advance">Advance (Auth)</string>
+	<string name="btn_basic">Basic (No Auth)</string>
+	<string name="btn_push">Push</string>
+	<string name="btn_remove_value">removeValue</string>
+	<string name="btn_set_value">setValue</string>
+	<string name="btn_update_children">updateChildren</string>
+	<string name="fail_read">Failed to read value: %s</string>
+	<string name="hint_password">Password</string>
+	<string name="hint_email">Email</string>
+	<string name="hint_title">Title</string>
+	<string name="hint_body">Write your post…</string>
+	<string name="hint_username">Username…</string>
+	<string name="menu_chat">Chat</string>
+	<string name="menu_map">Map</string>
+	<string name="report">Report</string>
+	<string name="same_category_this_week">Same Category This Week</string>
+	<string name="menu_logout">Log out</string>
+	<string name="post">Post</string>
+	<string name="notification">Alert</string>
+	<string name="send">SEND</string>
+	<string name="required">Required</string>
+	<string name="sign_in">Sign In</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="username">Current username: %s \n\n</string>
+	<string name="wrote">You wrote: %s</string>
+
+	<string name="yes1">ยืนยัน</string>
+	<string name="sent_predefine">Predefine event sent.</string>
+
+
+	<string-array name="headings">
+		<!--<item>My Student</item>-->
+		<item>All Student</item>
+		<item>ON THE WAY</item>
+
+	</string-array>
+
+	<string name="result">Something will happen here&#8230;</string>
+	<string name="subscribed">Subscribed to news topic</string>
+	<string name="unsubscribed">Unsubscribed from news topic</string>
+	<string name="btn_send_token">Send Token</string>
+	<string name="btn_send_tokens">Send Tokens</string>
+	<string name="btn_send_topic">Send Topic</string>
+	<string name="btn_show_token">Show Token</string>
+	<string name="btn_subscribe_news">Subscribe (News)</string>
+	<string name="btn_unsubscribe_news">Unsubscribe (News)</string>
+
+	<!--    Permissions    -->
+	<string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+	<string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+	<string name="permission_required_toast">Location permission is required for this demo.</string>
+
+
+
+	<string name="title_activity_welcome">Home Screen</string>
+	<string name="next">NEXT</string>
+	<string name="skip">SKIP</string>
+	<string name="start">GOT IT</string>
+
+	<string name="slide_1_title"> ยินดีต้อนรับ</string>
+	<string name="slide_1_desc">หน้าแรกแสดงข้อมูลลูกของคุณ</string>
+
+	<string name="slide_2_title">ON THE WAY</string>
+	<string name="slide_2_desc">กดรูปรถเมื่อต้องการจะไปรับลูกคนนั้น</string>
+
+	<string name="slide_3_title">การแจ้งเตือน</string>
+	<string name="slide_3_desc">เลือกลูกคนที่เราจะไปรับแล้วกดรูประฆัง เพื่อทำการแจ้งเตือน</string>
+
+	<string name="slide_4_title">การแจ้งเตือนอัตโนมัติ</string>
+	<string name="slide_4_desc">เลือก menu map  หรือเลือกลูกคนที่เราจะไปรับ เมื่อถึงระยะที่กำหนดจะแจ้งเตือนไปยังคุณครู</string>
+
+	<string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+	<string name="play_again">Play Again</string>
+</resources>
